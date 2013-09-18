@@ -1,4 +1,4 @@
-# Spotify Apps API Tutorial
+# Skip songs by Pitbull on Spotify
 ![Bad dog! home screen](https://raw.github.com/brianshaffer/skip-pitbull-on-spotify/master/img/screenshot.png)
 
 This is a fun app made by [Brian Shaffer](http://www.brianshaffer.com) that will automatically skip any song by Pitbull.
@@ -15,5 +15,4 @@ This is a fun app made by [Brian Shaffer](http://www.brianshaffer.com) that will
 ## More information
 
 [@brianshaffer](http://www.twitter.com/brianshaffer)
-
 [brianshaffer.com](http://www.brianshaffer.com)

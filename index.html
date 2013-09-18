@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <!-- Spotify CSS files -->
+      <link rel="stylesheet" type="text/css" href="sp://resources/css/eve.css">
+      <link rel="stylesheet" type="text/css" href="sp://resources/css/api.css">
+      <link rel="stylesheet" type="text/css" href="sp://resources/css/player.css">
+      <link rel="stylesheet" type="text/css" href="sp://resources/css/list.css">
+
+      <!-- Project CSS files -->
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <script type="text/javascript" src="js/script.js"></script>
+  </head>
+  <body>
+  	<div id="wrapper">
+  		<h1>Bad Dog!</h1>
+  		<p>Anytime you play a song that has Pitbull in it, we'll save you the<br/> trouble and skip it.</p>
+  		<div id="playsHolder">
+  			<span id="plays"></span><br/><br/>
+  			Dog bites prevented
+  		</div>
+
+  		<div id="attribution">
+  			Image from Flickr by Eva Rinaldi<br/> Celebrity and Live Music Photographer at<br/> http://flickr.com/photos/58820009@N05/7906563720
+  		</div>
+
+  		<div id="brianshaffer">
+  			App made by <a href="http://www.brianshaffer.com">Brian Shaffer</a>
+  		</div>
+  	</div>
+  	<script>
+  		document.getElementById("plays").innerHTML=localStorage.pitbullPlays;
+  	</script>
+  </body>
+</html>
